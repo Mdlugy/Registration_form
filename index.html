@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <p>First Name * <input type ="text"> </p>
+    <p>Last Name * <input type ="text"> </p>
+    <p>Email Adress * <input type ="text"> </p>
+    <p>Password * <input type ="password"> </p>
+    <p>confirm Password * <input type ="password"> </p>
+    <p>Birthday * <input type ="date"> </p>
+    <p>Gender Identity:</p>
+    <div>
+        <input type="radio" id="Male" name="Gender" value="Male"> 
+        <label for="Male">Male</label>
+        <input type="radio" id="Female" name="Gender" value="Female">
+        <label for="Female">Female</label>
+        <input type="radio" id="Non-binary" name="Gender" value="Non-binary">
+        <label for="Non-binary">Non-binary</label>
+        <input type="radio" id="NA" name="Gender" value="NA"> 
+        <label for="NA">I prefer not to answer</label>
+    </div>
+    <p>A short description about myself:</p>
+    <textarea></textarea>
+
+    <p> Favorite language:
+        <select>
+            <option value="Javascript">Javascript</option>
+            <option value="HTML">HTML</option>
+            <option value="Python">Python</option>
+            <option value="Russian">Russian</option>
+        </select>
+    </p> 
+
+    <p> <input type="checkbox"> Yes, I would like to recieve periodic email updates</p>
+    
+    <input type="submit" value = "Create Account">
+    <p>* indicates a required field</p>
+</body>
+</html>
